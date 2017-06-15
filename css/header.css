@@ -1,0 +1,13 @@
+#header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.boxed #header, .boxed-long #header {
+  width: auto
+}
+
+#header .navbar {
+  font: 16px/1.5 latoregular, Verdana, sans-serif
+}

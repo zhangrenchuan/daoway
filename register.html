@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <title>注册</title>
+</head>
+<body>
+  <div class="container">
+    <div class="register">
+      <form action="">
+        <div class="content">
+          <h2>到位商家管理后台</h2>
+          <div class="control-group">
+            <!--手机号-->
+            <input class="form-control" placeholder="请输入手机号" id="inputTel" maxlength="11" required="required" pattern="1[3-9][0-9]{9}">
+            <div class="input-group">
+              <!--验证码-->
+              <div id="codeImg">
+                  <img src="img/QQ拼音截图20170615202403.png" alt="">
+              </div>
+              <input class="form-control" placeholder="请输入图片中的字符串" maxlength="4" id="putCodeImg"  autocomplete="off">
+              <span class="input-group-addon" id="getCode">获取验证码</span>
+            </div>
+            <input class="form-control" placeholder="请输入验证码" id="putCode" maxlength="4" required="required" autocomplete="off">
+            <input class="form-control" placeholder="请输入密码" id="password" required="required" minlength="6" maxlength="20" autocomplete="off">
+          </div>
+          <br>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="vehicle" value="car" checked id="checked">
+            <a href="javascript:;">您确认并同意到位用户协议</a>
+          </label>
+        </div>
+        <div class="alert alert-danger alert-dismissible" role="alert" id="alert" style="display: none">
+          <button type="button" class="close">×</button>
+          <span id="text"></span>
+        </div>
+        <button class="btn btn-success btn-lg btn-block"  id="register">注册</button>
+        <div class="full">
+          <a href="./login.html">已有账户？登录</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

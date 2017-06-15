@@ -1,0 +1,17 @@
+ul,li{list-style: none}
+.footer-logo {margin-bottom: 35px}
+.footer {  width: 100%;  clear: both;  padding-top: 50px;  height: 160px;  background: #fff;  }
+.footer dl{  width: 1200px;  margin: 0 auto;  }
+.footer dl dt{float: left; font-family: " 微软雅黑"}
+.footer dl dd{margin-left: 40px; width: 1100px; line-height: 30px; float: left}
+.footer dl dd i{font-size: 16px; color: #898989; display: inline-block; width: 9%; text-align: center;font-weight: 200; cursor: pointer; font-family: "微软雅黑"}
+.baozhang{text-align: center; width: 100%; padding-top: 60px; background: #fff; clear: both}
+#baozhang h2{font-size: 28px; font-family: "微软雅黑"; font-weight: 800}
+#baozhang h2 i{color: #fb474f}
+#baozhang p{font-size: 20px; color: #3d3838; margin: 0}
+.servi{width: 100%; padding-top: 68px; background: #fff; height: 150px; font-family: "微软雅黑"}
+.servi ul{width: 850px; margin: 0 auto}
+.servi ul li{width: 33%; float: left; text-align: center; color: #1d1515; font-size: 18px}
+.servi ul li img{ margin-bottom: 10px}
+.btn:hover{color: #fff}
+.navnamebg{background: #60646d}

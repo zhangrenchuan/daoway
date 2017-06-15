@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="到位，到家，上门服务，家政服务，上门维修，上门按摩，搬家，北京家政服务，上海家政服务"/>
+  <title>首页!到位APP - 高品质上门服务直约平台，家政服务，上门按摩，上门维修，搬家，安心到家！</title>
+  <!--样式引入-->
+  <link rel="stylesheet" href="css/reset.css">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' href="css/style.css"/>
+  <link rel='stylesheet' href="css/footer.css"/>
+</head>
+<body>
+  <!--TODO 头部-->
+  <header id="header" class="transparent">
+  <div class="sticky-wrapper">
+    <nav class="navbar navbar-default navbar-transparent" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand navbar-brand-img" href="./index.html">
+            <img src="img/logo.png" class="img-responsive logo-white">
+            <img src="img/logo.png" class="img-responsive logo-fixed">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="main-menu">
+          <ul class="nav navbar-nav" id="navbar-nav">
+            <li id="position">
+              <a href="#">
+                <img src="img/citypoint.png">
+                <i id="showCity">
+                北京
+                </i>
+                <i id="city">
+                  切换城市
+                </i>
+              </a>
+            </li>
+            <li class="active">
+              <a href="./index.html">首页</a>
+            </li>
+            <li>
+              <a href="./down.html">下载APP</a>
+            </li>
+            <li>
+              <a href="./server.html">服务商</a>
+            </li>
+            <li>
+              <a href="./join.html">商家入驻</a>
+            </li>
+            <li>
+              <a href="./about.html">关于我们</a>
+            </li>
+            <li class="shanghu-right">
+              <a id="shanghu" class="shanghu" href="./login.html">商家登录</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <!--TODO 轮播和菜单-->
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div class="flicker-example" data-block-text="false">
+      <div class="full_banner">
+        <div class="bd">
+          <ul style="position: relative; width: 1349px; height: 420px;">
+            <li style="background: url('./img/banner1.jpg') center center no-repeat; position: absolute; width: 1349px; left: 0px; top: 0px;"></li>
+            <li style="background: url('./img/banner2.jpg') center center no-repeat; position: absolute; width: 1349px; left: 0px; top: 0px;"></li>
+            <li style="background: url('./img/banner3.jpg') center center no-repeat; position: absolute; width: 1349px; left: 0px; top: 0px;"></li>
+            <li style="background: url('./img/banner4.jpg') center center no-repeat; position: absolute; width: 1349px; left: 0px; top: 0px;"></li>
+            <li style="background: url('./img/banner5.jpg') center center no-repeat; position: absolute; width: 1349px; left: 0px; top: 0px;"></li>
+          </ul>
+        </div>
+        <div class="hd">
+          <ul>
+            <li class="on">0</li>
+            <li class="">1</li>
+            <li class="">2</li>
+            <li class="">3</li>
+            <li class="">4</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--导航菜单-->
+      <div class="banner-nav">
+        <div style="width: 180px; position: absolute; left: -470px;">
+          <ul>
+            <!--家庭保洁-->
+            <li class="navname">
+              <i>家庭保洁</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">小时工</a></li>
+                <li><a href="#">开荒保洁</a></li>
+                <li><a href="#">擦玻璃</a></li>
+                <li><a href="#">深度保洁</a></li>
+                <li><a href="#">家居养护</a></li>
+                <li><a href="#">杀虫灭鼠</a></li>
+              </ul>
+            </li>
+
+            <!--上门按摩-->
+            <li class="navname">
+              <i>上门按摩</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">中医推拿</a></li>
+                <li><a href="#">油压/SPA</a></li>
+                <li><a href="#">局部理疗</a></li>
+                <li><a href="#">足疗套餐</a></li>
+                <li><a href="#">美体塑形</a></li>
+                <li><a href="#">母婴保健</a></li>
+              </ul>
+            </li>
+
+            <!--上门维修-->
+            <li class="navname">
+              <i>上门维修</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">手机维修</a></li>
+                <li><a href="#">家电维修</a></li>
+                <li><a href="#">电脑维修</a></li>
+                <li><a href="#">家装家修</a></li>
+                <li><a href="#">管道疏通</a></li>
+                <li><a href="#">开锁换锁</a></li>
+                <li><a href="#">安装打孔</a></li>
+                <li><a href="#">空气净化</a></li>
+              </ul>
+            </li>
+
+            <!--家电清洗-->
+            <li class="navname">
+              <i>家电清洗</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">空调清洗</a></li>
+                <li><a href="#">油烟机清洗</a></li>
+                <li><a href="#">洗衣机清洗</a></li>
+                <li><a href="#">冰箱清洗</a></li>
+                <li><a href="#">燃气灶清洗</a></li>
+                <li><a href="#">热水器清洗</a></li>
+                <li><a href="#">微波炉清洗</a></li>
+                <li><a href="#">饮水机清洗</a></li>
+              </ul>
+            </li>
+
+            <!--衣物洗护-->
+            <li class="navname">
+              <i>衣物洗护</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">洗衣</a></li>
+                <li><a href="#">洗鞋-修鞋</a></li>
+                <li><a href="#">家纺清洗</a></li>
+                <li><a href="#">箱包洗护</a></li>
+                <li><a href="#">定制改衣</a></li>
+              </ul>
+            </li>
+
+            <!--搬家速运-->
+            <li class="navname">
+              <i>搬家速运</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">搬家租车</a></li>
+                <li><a href="#">拆装搬运</a></li>
+                <li><a href="#">搬家套餐</a></li>
+                <li><a href="#">仓储寄存</a></li>
+              </ul>
+            </li>
+
+            <!--美容美妆-->
+            <li class="navname">
+              <i>美容美妆</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">化妆</a></li>
+                <li><a href="#">美甲</a></li>
+                <li><a href="#">美睫</a></li>
+                <li><a href="#">美容</a></li>
+              </ul>
+            </li>
+
+            <!--养车用车-->
+            <li class="navname">
+              <i>养车用车</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">上门养车</a></li>
+                <li><a href="#">上门洗车</a></li>
+                <li><a href="#">汽车陪练</a></li>
+                <li><a href="#">机场泊车</a></li>
+              </ul>
+            </li>
+
+            <!--上门医护-->
+            <li class="navname">
+              <i>上门医护</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">护士上门</a></li>
+                <li><a href="#">医护陪诊</a></li>
+                <li><a href="#">私人医生</a></li>
+                <li><a href="#">康复陪护</a></li>
+              </ul>
+            </li>
+
+            <!--鲜花绿植-->
+            <li class="navname">
+              <i>鲜花绿植</i>
+              <img src="img/right.png" width="6" height="11">
+              <ul style="top: 0; display: none;">
+                <li><a href="#">包月鲜花</a></li>
+                <li><a href="#">礼品用花</a></li>
+                <li><a href="#">绿植</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--TODO 服务详情-->
+  <div class="boxx">
+    <div class="xxx">
+      <div class="servicebody">
+        <div class="navigation">
+          <span class="serviceIndex">家庭保洁</span>
+          <span class="serviceType">小时工/开荒保洁/擦玻璃/深度保洁/家居养护/杀虫灭鼠</span>
+        </div>
+        <div class="servicetags">
+          <div class="tagsListHeader">
+            <span class="lookMore">
+              <a href="#" style="color: #898989; font-size: 18px">更多服务&gt;</a>
+            </span>
+          </div>
+          <div class="row">
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/family1.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">家庭保洁</div>
+                <div class="description">服务内容：
+                  家庭保洁服务，2小时起订。（云家政暂时不提供带保...</div>
+                <div class="price">
+                  <span style="font-size: 20px">30</span>元/小时
+                  <span class="btn">查看详情</span></div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="./img/family2.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">室内保洁</div>
+                <div class="description">服务内容：
+                  1.室内保洁服务，2小时起订，服务商携带清洁装备...</div>
+                <div class="price"><span style="font-size: 20px">25</span>元/小时<span class="btn">查看详情</span></div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="./img/family3.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">金牌保洁＋全屋清洁消毒杀菌</div>
+                <div class="description">服务内容：
+                  1.金牌保洁+全屋清洁消毒杀菌（本次服务全程采用...</div>
+                <div class="price"><span style="font-size: 20px">149</span>元/3小时<span class="btn">查看详情</span></div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="./img/family4.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">家庭保洁</div>
+                <div class="description">服务内容：
+                  1.家庭保洁服务，2小时起订，服务商携带清洁装备...</div>
+                <div class="price"><span style="font-size: 20px">25</span>元/小时<span class="btn">查看详情</span></div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder"><img src="./img/family5.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">深度保洁4小时</div>
+                <div class="description">服务内容：
+                  深度精致保洁4小时/人，意大利进口专用开荒制剂进...</div>
+                <div class="price"><span style="font-size: 20px">290</span>元/次<span class="btn">查看详情</span></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="boxx">
+    <div class="xxx">
+      <div class="servicebody">
+        <div class="navigation">
+          <span class="serviceIndex">上门按摩</span>
+          <span class="serviceType">中医推拿/油压/SPA/局部理疗/足疗套餐/美体塑形/母婴保健</span>
+        </div>
+        <div class="servicetags">
+          <div class="tagsListHeader">
+            <span class="lookMore">
+              <a href="#" style="color: #898989; font-size: 18px">更多服务&gt;</a>
+            </span>
+          </div>
+          <div class="row">
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHouse1.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">招牌Massage</div>
+                <div class="description">时长：90分钟
+                  服务姿势：卧姿
+                  适用介绍：
+                  适用于工作繁忙...</div>
+                <div class="price">
+                  <span style="font-size: 20px">135</span>元/次
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHouse2.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">高级油压SPA</div>
+                <div class="description">局部排毒 畅通无阻！
+                  服务时长：120分钟
+                  服务姿势：仰卧 ...</div>
+                <div class="price">
+                  <span style="font-size: 20px">698</span>元/次
+                  <span class="btn">查看详情</span></div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHouse3.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">任督健康局部调理</div>
+                <div class="description">生命之源，源源不断！
+                  服务时长：90分钟
+                  服务姿势：卧姿
+                  ...</div>
+                <div class="price">
+                  <span style="font-size: 20px">398</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHouse4.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">招牌环游北海道SPA</div>
+                <div class="description">服务时间：120分钟
+                  服务姿势：卧姿
+                  适用人群：
+                  适用于工...
+                </div>
+                <div class="price">
+                  <span style="font-size: 20px">1099</span>元/项
+                  <span class="btn">查看详情</span></div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHouse5.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">深度全身SPA</div>
+                <div class="description">时长：120分钟
+                  适应人群：
+                  高强度工作，长时间会议，长途...
+                </div>
+                <div class="price">
+                  <span style="font-size: 20px">498</span>元/项
+                  <span class="btn">查看详情</span></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="boxx">
+    <div class="xxx">
+      <div class="servicebody">
+        <div class="navigation">
+          <span class="serviceIndex">家电清洗</span>
+          <span class="serviceType">
+            空调清洗/油烟机清洗/洗衣机清洗/冰箱清洗/燃气灶清洗/热水器清洗/微波炉清洗/饮水机清洗
+          </span>
+        </div>
+        <div class="servicetags">
+          <div class="tagsListHeader">
+            <span class="lookMore">
+              <a href="#" style="color: #898989; font-size: 18px">更多服务&gt;</a>
+            </span>
+          </div>
+          <div class="row">
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/familyE1.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">挂机空调清洗</div>
+                <div class="description">空调类型：
+                  适用于空调小于3匹的挂机。
+                  全市范围内均可提供技...
+                </div>
+                <div class="price">
+                  <span style="font-size: 20px">98</span>元/台
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/familyE2.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">挂机空调清洗</div>
+                <div class="description">服务流程：
+                  1.验机
+                  2.准备工具、做家庭防护
+                  3.拆卸附件...</div>
+                <div class="price">
+                  <span style="font-size: 20px">119</span>元/项
+                  <span class="btn">查看详情</span></div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/familyE3.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">挂机3台+柜机保养套餐</div>
+                <div class="description">服务内容：
+                  包含：3台挂式空调+1台柜机
+                  服务流程：
+                  1....</div>
+                <div class="price">
+                  <span style="font-size: 20px">278</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/familyE4.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">抽油烟机现场清洗</div>
+                <div class="description">服务流程:
+                  1.验机，
+                  2.拍照，做家庭防护，准备工具，
+                  3...</div>
+                <div class="price">
+                  <span style="font-size: 20px">118</span>元/件
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/familyE5.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">柜式空调清洗</div>
+                <div class="description">我们是TCL集团旗下家电服务品牌
+                  服务流程：
+                  1.验机
+                  2....</div>
+                <div class="price"><span style="font-size: 20px">98</span>元/台
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="boxx">
+    <div class="xxx">
+      <div class="servicebody">
+        <div class="navigation">
+          <span class="serviceIndex">衣物洗护</span>
+          <span class="serviceType">洗衣/洗鞋/修鞋/家纺清洗/箱包洗护/定制改衣</span>
+        </div>
+        <div class="servicetags">
+          <div class="tagsListHeader">
+            <span class="lookMore">
+              <a href="#" style="color: #898989; font-size: 18px">更多服务&gt;</a>
+            </span>
+          </div>
+          <div class="row">
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/cloth1.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">4双不限鞋类无忧洗</div>
+                <div class="description">服务内容：
+                  1次四双鞋子不限种类精洗，不包含修补、翻新服务，...
+                </div>
+                <div class="price">
+                  <span style="font-size: 20px">89</span>元/4双
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/cloth2.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">奢品包袋焕新养护省心套餐—钱包</div>
+                <div class="description">服务内容：
+                  1.除菌除尘+深层清洁+划痕修复+磨损补色
+                  2....
+                </div>
+                <div class="price">
+                  <span style="font-size: 20px">199</span>元/个
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/cloth3.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">大包清洗保养护理</div>
+                <div class="description">服务内容：
+                  包包内外污渍清洗，去霉杀菌上光处理（不含补色补伤...</div>
+                <div class="price">
+                  <span style="font-size: 20px">288</span>元/个
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/cloth4.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">运动鞋</div>
+                <div class="description">服务内容：不超过脚踝的运动鞋，洗涤周期：3天
+                  服务保障：
+                  ...
+                </div>
+                <div class="price"><span style="font-size: 20px">25</span>元/双
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/cloth5.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">中款皮包清洗</div>
+                <div class="description">服务内容：中皮包包(30cm-40cm)。3-5日送回
+                  服...
+                </div>
+                <div class="price"><span style="font-size: 20px">180</span>元/个
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="boxx">
+    <div class="xxx">
+      <div class="servicebody">
+        <div class="navigation">
+          <span class="serviceIndex">搬家速运</span>
+          <span class="serviceType">搬家租车/拆装搬运/搬家套餐/仓储寄存</span>
+        </div>
+        <div class="servicetags">
+          <div class="tagsListHeader">
+            <span class="lookMore">
+              <a href="#" style="color: #898989; font-size: 18px">更多服务&gt;</a>
+            </span>
+          </div>
+          <div class="row">
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/banjia1.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">厢货搬家</div>
+                <div class="description">服务内容：
+                  1.厢货车辆容积：4.2米*1.9米*1.9米=...
+                </div>
+                <div class="price">
+                  <span style="font-size: 20px">348</span>元/次
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/banjia2.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">厢货居民普通搬家</div>
+                <div class="description">服务内容：
+                  1.车厢长4.2m、宽1.9、高1.9
+                  2....
+                </div>
+                <div class="price">
+                  <span style="font-size: 20px">280</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/banjia3.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">简版日式搬家-年轻夫妻搬家</div>
+                <div class="description">服务内容：
+                  1.金杯或全顺（5立方）1车送达
+                  2.现场3位管...
+                </div>
+                <div class="price"><span style="font-size: 20px">1888</span>元/次
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/banjia4.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">手拉手一站式搬家套餐</div>
+                <div class="description">服务内容：
+                  1.8位工人
+                  2.全套专业工具
+                  3.旧家整体打包...</div>
+                <div class="price"><span style="font-size: 20px">2788</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/banjia5.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">箱货搬家3人套餐</div>
+                <div class="description">服务内容：
+                  1.搬运工120/人／小时＊3人
+                  2.搬运路程1...
+                </div>
+                <div class="price"><span style="font-size: 20px">360</span>元/次
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="boxx">
+    <div class="xxx">
+      <div class="servicebody">
+        <div class="navigation">
+          <span class="serviceIndex">美容美妆</span>
+          <span class="serviceType">化妆/美甲/美睫/美容/美发/纹绣</span>
+        </div>
+        <div class="servicetags">
+          <div class="tagsListHeader">
+            <span class="lookMore">
+              <a href="#" style="color: #898989; font-size: 18px">更多服务&gt;</a>
+            </span>
+          </div>
+          <div class="row">
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/meirong1.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">私人定制精油SPA</div>
+                <div class="description">服务时长：60分钟
+                  适用介绍：女士专享
+                  部位任选：按摩部位任...</div>
+                <div class="price"><span style="font-size: 20px">238</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/meirong2.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">回春术紧致系列</div>
+                <div class="description">服务时长：90分钟
+                  适应人群：面部皮肤干燥松弛的人群
+                  注...</div>
+                <div class="price"><span style="font-size: 20px">468</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/meirong3.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">组合款手+脚美甲</div>
+                <div class="description">服务内容；特价组合款美甲造型及护理
+                  操作流程；服务工具酒精...</div>
+                <div class="price"><span style="font-size: 20px">588</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/meirong4.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">丝丝分明旺夫根状眉</div>
+                <div class="description">丝丝分明，像自然天生的眉毛一样，毫无违和感，旺夫运满满。
+                  【...</div>
+                <div class="price"><span style="font-size: 20px">2880</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/meirong5.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">上镜妆</div>
+                <div class="description">一款自然或是魅力的上镜妆容，层次感分明的底妆能够立刻修饰脸型...
+                </div>
+                <div class="price"><span style="font-size: 20px">198</span>元/次
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="boxx">
+    <div class="xxx">
+      <div class="servicebody">
+        <div class="navigation">
+          <span class="serviceIndex">养车用车</span>
+          <span class="serviceType">上门养车/上门洗车/汽车陪练/机场泊车/验车</span>
+        </div>
+        <div class="servicetags">
+          <div class="tagsListHeader">
+            <span class="lookMore">
+              <a href="#" style="color: #898989; font-size: 18px">更多服务&gt;</a>
+            </span>
+          </div>
+          <div class="row">
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/car1.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">自家车陪练9小时课程</div>
+                <div class="description">服务说明：
+                  客户自己家各种车型,驾培师专业负责自家车陪练,手...</div>
+                <div class="price"><span style="font-size: 20px">800</span>元/套
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/car2.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">上门洗车（精洗）</div>
+                <div class="description">服务时长：90分钟
+                  服务内容：
+                  在标准洗的基础上，升级所有...</div>
+                <div class="price"><span style="font-size: 20px">199</span>元/辆
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/car3.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">自备机油配件上门保养</div>
+                <div class="description">汽车需保养，流动车吧养车小哥来帮忙！
+                  费用说明：
+                  养车小哥...</div>
+                <div class="price"><span style="font-size: 20px">88</span>元/次
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/car4.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">宝马专享小保养</div>
+                <div class="description">费用说明：
+                  5升机油+机滤+全车检测+上门工时费
+                  增值费用...</div>
+                <div class="price">
+                  <span style="font-size: 20px">549</span>元/次
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/car5.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">上门发动机舱精洗</div>
+                <div class="description">精洗发动机舱表面重污，养护元件及和线束；防止线路老化，保护发...</div>
+                <div class="price"><span style="font-size: 20px">98</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="boxx">
+    <div class="xxx">
+      <div class="servicebody">
+        <div class="navigation">
+          <span class="serviceIndex">上门医护</span>
+          <span class="serviceType">护士上门/挂号/陪诊/私人医生/康复陪护</span>
+        </div>
+        <div class="servicetags">
+          <div class="tagsListHeader"><span class="lookMore">
+            <a href="#" style="color: #898989; font-size: 18px">更多服务&gt;</a></span>
+          </div>
+          <div class="row">
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHome1.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">天天护（重症）</div>
+                <div class="description">服务简介：
+                  满足医院或者居家的短期护理需求，主要包括住院期护...</div>
+                <div class="price"><span style="font-size: 20px">220</span>元/天
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHome2.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">上门打针</div>
+                <div class="description">产品介绍：
+                  1.皮下注射：将小量药液注入皮下组织，注射部位常...</div>
+                <div class="price"><span style="font-size: 20px">159</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHome3.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">普通陪诊</div>
+                <div class="description">【购买提示】
+                  1.基础服务时长为4小时，超时50元／30分...</div>
+                <div class="price"><span style="font-size: 20px">188</span>元/项
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHome4.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">护士上门输液（普通）</div>
+                <div class="description">执业护士上门输液服务（239元/单次），预约时间请选择首次为...</div>
+                <div class="price"><span style="font-size: 20px">169</span>元/次
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+            <a class="form-group shopList" href="#">
+              <div class="col-md-3 col-xs-6 member-container ServiceBorder">
+                <img src="./img/goHome5.jpg" class="serviceImg" width="210px" height="210px">
+                <div class="serviceName">天天护（标准）</div>
+                <div class="description">服务简介：
+                  满足医院或者居家的短期护理需求，主要包括住院期护...</div>
+                <div class="price"><span style="font-size: 20px">180</span>元/天
+                  <span class="btn">查看详情</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--TODO 服务信息-->
+  <div class="baozhang" id="baozhang">
+    <h2>到位
+      <i>服务</i>保障
+    </h2>
+    <p>到位平台担保交易安全，交易未成功100%退款</p>
+  </div>
+  <div class="servi">
+    <ul>
+      <li><img src="img/quan.png"><br>服务多</li>
+      <li><img src="img/quan.png"><br>上门快</li>
+      <li><img src="img/quan.png"><br>有保障</li>
+    </ul>
+  </div>
+
+  <!--TODO 底部-->
+  <footer class="footer">
+    <dl>
+      <dt>热门城市</dt>
+      <dd>
+        <i>北京</i>
+        <i>上海</i>
+        <i>广州</i>
+        <i>深圳</i>
+        <i>成都</i>
+        <i>天津</i>
+        <i>南京</i>
+        <i>杭州</i>
+        <i>重庆</i>
+        <i>苏州</i>
+        <i>武汉</i>
+        <i>长沙</i>
+        <i>济南</i>
+        <i>郑州</i>
+        <i>西安</i>
+        <i>沈阳</i>
+        <i>福州</i>
+        <i>厦门</i>
+        <i>南昌</i>
+        <i>合肥</i>
+        <i>宁波</i>
+        <i>无锡</i>
+        <i>青岛</i>
+        <i>大连</i>
+        <i>东莞</i>
+        <i>佛山</i>
+        <i>石家庄</i>
+        <i>哈尔滨</i>
+        <i>太原</i>
+        <i>昆明</i>
+      </dd>
+    </dl>
+  </footer>
+  <div class="beian">
+    <p>©2015 版权所有 京ICP备001号</p>
+    <p>北京科技有限公司</p>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+  $(function () {
+    $(document).on('mouseover','.navname',function(){
+      var _this = $(this);
+      _this.addClass('navnamebg');
+      _this.find('ul').show().css('top',_this.index()*-42);
+      _this.find('img').addClass('act')[0].src = 'img/icon1.png';
+    });
+    $(document).on('mouseout','.navname',function(){
+      var _this = $(this);
+      _this.removeClass('navnamebg');
+      _this.find('ul').hide();
+      _this.find('img').removeClass('act')[0].src = 'img/right.png';
+    });
+
+    // 让图片隔1s换一次
+    // 图片变化的时候，小圆点也随着变动
+    // 点击小圆点，图片也随着变换
+    // 第一张显示
+    $('.full_banner .bd li').eq(0).show().siblings('.full_banner .bd li').hide();
+    //鼠标滑过手动切换，淡入淡出
+    $('.full_banner .hd li').mousemove(function () {
+      $(this).addClass('on').siblings().removeClass('on');
+      var index = $(this).index();
+      i = index;
+      $('.full_banner .bd li').eq(index).fadeIn(800).siblings().fadeOut(800);
+    });
+    // 自动轮播
+    var i = 0;
+    var timer = setInterval(play, 1500);
+    function play() {
+      i++;
+      i=i>5?0:i;
+      $('.full_banner .hd li').eq(i).addClass('on').siblings().removeClass('on');
+      $('.full_banner .bd li').eq(i).fadeIn(800).siblings().fadeOut(800);
+    }
+    // 鼠标移入移出效果
+    $('.full_banner').hover(function () {
+      clearInterval(timer);
+    }, function () {
+      timer=setInterval(play, 1500)
+    })
+  })
+</script>
